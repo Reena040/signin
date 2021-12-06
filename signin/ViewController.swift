@@ -9,9 +9,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var userTextField: UITextField!
+    @IBOutlet weak var buttonTextField: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        userTextField.layer.cornerRadius = 22
+        passwordTextField.layer.cornerRadius = 22
+        buttonTextField.layer.cornerRadius = 22
+        
+        
+        
+        
+        
     }
 
 
