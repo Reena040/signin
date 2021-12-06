@@ -15,9 +15,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        userTextField.layer.cornerRadius = 22
-        passwordTextField.layer.cornerRadius = 22
-        buttonTextField.layer.cornerRadius = 22
+        userTextField.layer.cornerRadius = 20
+        passwordTextField.layer.cornerRadius = 20
+        buttonTextField.layer.cornerRadius = 20
         
         
         
